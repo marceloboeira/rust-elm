@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rust + Elm</title>
+  </head>
+  <body>
+    <div id="application">
+      <div id="body">
+        <div class="title">
+          <h2 class="loading">Loading...</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./assets/application.js"></script>
+  <script type="text/javascript">
+    Elm.Application.init({
+      node: document.getElementById("application")
+    });
+  </script>
+</html>

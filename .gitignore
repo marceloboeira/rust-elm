@@ -1,0 +1,11 @@
+# Important
+# Remember to update docker/.dockerignore for every change here (if necessary)
+
+# Rust
+api/target
+api/**/*.rs.bk
+
+# Elm
+ui/elm-stuff
+ui/repl-temp-*
+ui/dist/assets/application.js
