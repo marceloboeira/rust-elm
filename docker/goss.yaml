@@ -27,7 +27,7 @@ process:
   api:
     running: true
 http:
-  # Kurtz root endpoint
+  # Application root endpoint
   http://localhost:8000:
     status: 200
     timeout: 1000
