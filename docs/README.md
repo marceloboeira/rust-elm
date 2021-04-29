@@ -23,10 +23,12 @@ Couple make commands that ensure you can get around easily
 ```
 help          Lists the available commands
 docker-build  Builds the core docker image compiling source for Rust and Elm
+docker-run    Runs the latest docker generated image
 docker-test   Tests the latest docker generated image
 docs-install  Installs documentation-related dependencies
 docs          Starts a local server to show docs
 test-all      Tests everything, EVERYTHING
+
 ```
 
 ## Folder Structure
