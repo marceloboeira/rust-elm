@@ -40,7 +40,7 @@ docker-build: ## Builds the core docker image compiling source for Rust and Elm
 
 .PHONY: docker-run
 docker-run: ## Runs the latest docker generated image
-	$(DOCKER) run -p $(DEFAULT_HTTP_PORT):$(DEFAULT_HTTP_PORT) -t $(DOCKER_TAG)
+	$(DOCKER) run -it -p $(DEFAULT_HTTP_PORT):$(DEFAULT_HTTP_PORT) $(DOCKER_TAG)
 
 .PHONY: docker-test
 docker-test: ## Tests the latest docker generated image
